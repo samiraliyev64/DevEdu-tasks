@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\bin\Debug\netcoreapp3.1\Cycles.exe
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\bin\Debug\netcoreapp3.1\Cycles.deps.json
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\bin\Debug\netcoreapp3.1\Cycles.runtimeconfig.json
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\bin\Debug\netcoreapp3.1\Cycles.runtimeconfig.dev.json
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\bin\Debug\netcoreapp3.1\Cycles.dll
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\bin\Debug\netcoreapp3.1\Cycles.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.AssemblyInfo.cs
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.dll
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\Cycles\Cycles\obj\Debug\netcoreapp3.1\Cycles.genruntimeconfig.cache
