@@ -264,6 +264,90 @@ namespace Cycles
             //Console.Write(result);
             #endregion
 
+            #region Task 14
+            // 1)
+            //static float Calculate(int x, int n)
+            //{
+            //    float sum = 0;
+            //    float mexrec = 1;
+            //    int temp = 0;
+            //    while (temp <= n)
+            //    {
+            //        mexrec *= (x+temp);
+            //        sum += 1 / mexrec;
+            //        temp++;
+            //    }
+
+            //    return sum;
+            //}
+            //float result = Calculate(2, 2);
+            //Console.Write(result);
+
+            // 2)
+            //static int Factorial(int n)
+            //{
+            //    if (n == 0) {
+            //        return 1;
+            //    }
+            //    return n * Factorial(n-1);
+            //}
+            //static double Calculate(int x, int n)
+            //{
+            //    double sum = 0;
+            //    int i = 0;
+            //    int mexrec = 0;
+            //    int temp = n;
+
+            //    while(i < n)
+            //    {
+            //        mexrec = Factorial(temp);
+            //        sum += Math.Pow(x, temp) / mexrec;
+            //        temp--;
+            //        i++;
+            //    }
+            //    return sum;
+            //}
+            //double result = Calculate(2, 3);
+            //Console.Write(result);
+            #endregion
+
+            #region Task 17 
+            //17.Find out all 2-digits numbers, whose digit’s sum doesn’t change after multiplying this number by 2,3,4,5,6,7,8,9.
+            //static int FindNums()
+            //{
+            //    bool check = false;
+            //    int box = 0;
+            //    for(int i = 11; i <= 99; i++)
+            //    {
+            //        int firstDigit = i / 10;
+            //        int secondDigit = i % 10;
+            //        int digitsSum = firstDigit + secondDigit;
+
+            //        for(int j = 2; j <=9; j++)
+            //        {
+            //            int multipliedNum = i* j;
+            //            int multipliedNumDigitsSum = multipliedNum / 100 + (multipliedNum / 10) % 10 + multipliedNum % 10;
+            //            if(digitsSum == multipliedNumDigitsSum)
+            //            {
+            //                check = true;
+            //            }
+            //            else
+            //            {
+            //                check = false;
+            //            }
+            //        }
+            //        if(check == true)
+            //        {
+            //            box = i;
+            //        }
+
+            //    }
+            //    return box;
+            //}
+            //int res = FindNums();
+            //Console.Write(res);
+            #endregion
+
             #region Task 18
             //18.Find out every 3 - digit number that can be represented as sum of all its digit’s factorials.
             //static int factorial(int n)
@@ -336,6 +420,40 @@ namespace Cycles
             //{
             //    Console.WriteLine("not perfect num");
             //}
+            #endregion
+
+            #region Task 21
+            //21.User gives one positive number k. Find out k-th number of series: 1234567891011121314… which have every positive numbers one by one.
+            //static int GetNumber(int k)
+            //{
+            //    for(int i = 1; i <= k; i++)
+            //    {
+            //        if(i == k)
+            //        {
+            //            return k;
+            //        }
+            //    }
+            //    return k;
+            //}
+            //Console.Write(GetNumber(12));
+            #endregion
+
+            #region Task 22
+            //22.User gives one positive number k. Find out k-th number of series: 149162536… which have every positive numbers one by one powered by 2.
+            //static int GetNumber(int k)
+            //{
+            //    int num = 1;
+            //    while(num < k)
+            //    {
+            //        if(k == num)
+            //        {
+            //            return num * num;
+            //        }
+            //        num++;
+            //    }
+            //    return num * num;
+            //}
+            //Console.Write(GetNumber(12));
             #endregion
 
             #region Task 23
