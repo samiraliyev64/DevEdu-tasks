@@ -423,57 +423,59 @@ namespace Cycles
             #endregion
 
             #region Task 21
-            //21.User gives one positive number k. Find out k-th number of series: 1234567891011121314… which have every positive numbers one by one.
-            //static int GetNumber(int k)
+            //21.User gives one positive number k. Find out k-th digit of series: 1234567891011121314… which have every positive numbers one by one.
+            //static void GetDigit(int k)
             //{
-            //    for(int i = 1; i <= k; i++)
+            //    string nums = "";
+            //    for(int i = 0; i <= k; i++)
             //    {
-            //        if(i == k)
-            //        {
-            //            return k;
-            //        }
+            //        nums += i;
             //    }
-            //    return k;
+            //    Console.WriteLine(nums[k]);
             //}
-            //Console.Write(GetNumber(12));
+            //GetDigit(11);
             #endregion
 
             #region Task 22
-            //22.User gives one positive number k. Find out k-th number of series: 149162536… which have every positive numbers one by one powered by 2.
-            //static int GetNumber(int k)
+            //22.User gives one positive number k. Find out k-th digit of series: 149162536… which have every positive numbers one by one powered by 2.
+            //static void GetDigit(int k)
             //{
-            //    int num = 1;
-            //    while(num < k)
+            //    string nums = "";
+            //    for (int i = 0; i <= k; i++)
             //    {
-            //        if(k == num)
-            //        {
-            //            return num * num;
-            //        }
-            //        num++;
+            //        nums += i*i;
             //    }
-            //    return num * num;
+            //    Console.WriteLine(nums[k]);
             //}
-            //Console.Write(GetNumber(12));
+            //GetDigit(5);
             #endregion
 
             #region Task 23
-            //23.User gives one positive number k. Find out k-th number of Fibonacci’s series: 112358132134…
-            //Console.Write("Enter number k: ");
-            //int k = Convert.ToInt32(Console.ReadLine());
-            //int num1 = 1;
-            //int num2 = 1;
-
-            //int[] fibonacciNums = new int[k];
-            //fibonacciNums[0] = num1;
-            //fibonacciNums[1] = num2;
-            //for (int i=2; i < fibonacciNums.Length; i++)
+            //23.User gives one positive number k. Find out k-th digit of Fibonacci’s series: 112358132134…
+         
+            //static void GetDigit(int k)
             //{
-            //    fibonacciNums[i] = num1+num2;
-            //    num1 = fibonacciNums[i - 1];
-            //    num2 = fibonacciNums[i];
 
+            //    string nums = "";
+            //    int num1 = 1;
+            //    int num2 = 1;
+            //    nums += num1;
+            //    nums += num2;
+
+            //    int[] fibonacciNums = new int[k];
+            //    fibonacciNums[0] = num1;
+            //    fibonacciNums[1] = num2;
+            //    for (int i = 2; i < fibonacciNums.Length; i++)
+            //    {
+            //        fibonacciNums[i] = num1 + num2;
+            //        num1 = fibonacciNums[i - 1];
+            //        num2 = fibonacciNums[i];
+            //        nums += fibonacciNums[i];
+
+            //    }
+            //    Console.WriteLine(nums[k-1]);
             //}
-            //Console.WriteLine(fibonacciNums[k-1]);
+            //GetDigit(8);
             #endregion
 
         }
