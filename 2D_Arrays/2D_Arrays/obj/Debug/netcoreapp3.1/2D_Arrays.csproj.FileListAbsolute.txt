@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\bin\Debug\netcoreapp3.1\2D_Arrays.exe
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\bin\Debug\netcoreapp3.1\2D_Arrays.deps.json
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\bin\Debug\netcoreapp3.1\2D_Arrays.runtimeconfig.json
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\bin\Debug\netcoreapp3.1\2D_Arrays.runtimeconfig.dev.json
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\bin\Debug\netcoreapp3.1\2D_Arrays.dll
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\bin\Debug\netcoreapp3.1\2D_Arrays.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.AssemblyInfo.cs
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.dll
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\2D_Arrays\2D_Arrays\obj\Debug\netcoreapp3.1\2D_Arrays.genruntimeconfig.cache
