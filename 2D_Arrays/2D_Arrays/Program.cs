@@ -128,6 +128,184 @@ namespace _2D_Arrays
             //    }
             //}
             #endregion
-        }
+
+
+//            //Console.Write(min + ", ");
+//            min_points[i] = $"{i}_{min_index}";
+//        }
+
+//    //max indexs
+//    for (int j = 0; j<arr.GetLength(1); j++)
+//    {
+//        int max = arr[0, j];
+//        int max_index = 0;
+//        for (int i = 0; i<arr.GetLength(0); i++)
+//        {
+//            if (max<arr[i, j])
+//            {
+//                max = arr[i, j];
+//                max_index = i;
+//            }
+//}
+
+////    Console.Write(max + ", ");
+//max_points[j] = $"{max_index}_{j}";
+
+//    }
+
+ 
+
+
+//    // Write min of rows
+//    Console.WriteLine();
+//Console.Write("min of rows: ");
+//for (int i = 0; i < min_points.Length; i++)
+//{
+//    Console.Write(min_points[i] + ", ");
+//}
+
+
+//write max of columns
+//Console.WriteLine();
+//Console.Write("max of columns: ");
+//for (int i = 0; i < max_points.Length; i++)
+//{
+//    Console.Write(max_points[i] + ", ");
+//}
+//Console.WriteLine();
+
+
+
+//List<string> sandle_points = new List<string>();
+
+//for (int i = 0; i < min_points.Length; i++)
+//{
+//    for (int j = 0; j < max_points.Length; j++)
+//    {
+//        if (min_points[i] == max_points[j])
+//        {
+//            sandle_points.Add(min_points[i]);
+//            //  Console.Write(max_points[j] + " -- " + min_points[i]);
+//        }
+//    }
+
+//}
+/*
+    if (sandle_points.Count != 0)
+    {
+        Console.Write("\n\nSandle Points: ");
+        for (int i = 0; i < sandle_points.Count; i++)
+            Console.Write(sandle_points[i] + ", ");
+
+        Console.WriteLine();
     }
-}
+    else
+    {
+        Console.WriteLine("Sandle Point is not");
+    }
+*/
+
+
+//return sandle_points;
+//}
+
+
+//void TaskSeven(float[,] float_arr, int index_k)
+//{
+//    Console.WriteLine($"Is {index_k} row Symmetrical: " + IsRowSymmetrycal(float_arr, index_k));
+//    Console.WriteLine($"Is {index_k} row Descending: " + IsRowDescending(float_arr, index_k));
+//    Console.WriteLine($"Is all zero of Is {index_k} column: " + IsAllZeroOfColumn(float_arr, index_k));
+//}
+
+////Is row symmetrycal or not
+//bool IsRowSymmetrycal(float[,] arr, int rowIndex)
+//{
+//    bool is_symmetryc = true;
+//    int i = rowIndex;
+
+//    for (int j = 0; j < arr.GetLength(1) / 2; j++)
+//    {
+//        if (arr[i, j] != arr[i, arr.GetLength(1) - j - 1])
+//        {
+//            is_symmetryc = false;
+//        }
+//    }
+
+//    return is_symmetryc;
+//}
+
+////Is row descending or not
+//bool IsRowDescending(float[,] arr, int rowIndex)
+//{
+//    bool is_descending = true;
+//    int i = rowIndex;
+
+//    for (int j = 0; j < arr.GetLength(0) - 1; j++)
+//    {
+//        if (arr[i, j] < arr[i, j + 1])
+//        {
+//            is_descending = false;
+//        }
+//    }
+//    return is_descending;
+//}
+
+////All elements of k-th column are 0;
+//bool IsAllZeroOfColumn(float[,] arr, int columnIndex)
+//{
+//    bool all_is_zero = true;
+//    int i = columnIndex;
+
+//    for (int j = 0; j < arr.GetLength(0); j++)
+//    {
+//        if (arr[j, i] != 0)
+//        {
+//            all_is_zero = false;
+//        }
+//    }
+
+//    return all_is_zero;
+//}
+
+
+//void MirrorArray(int[,] arr)
+//{
+//    for (int i = 0; i < arr.GetLength(0) / 2 - 1; i++)
+//    {
+//        for (int j = 0; j < arr.GetLength(1); j++)
+//        {
+//            (arr[j, i], arr[i, j]) = (arr[i, j], arr[j, i]);
+//        }
+
+//    }
+//}
+
+
+//void WriteFloatArray(float[,] arr)
+//{
+//    Console.WriteLine("Array: \n");
+//    for (int i = 0; i < arr.GetLength(0); i++)
+//    {
+//        for (int j = 0; j < arr.GetLength(1); j++)
+//            Console.Write(arr[i, j] + " ");
+//        Console.WriteLine();
+//    }
+//}
+
+
+//void WriteArray(int[,] arr)
+//{
+//    Console.WriteLine("--------");
+
+//    Console.WriteLine("Array: \n");
+//    for (int i = 0; i < arr.GetLength(0); i++)
+//    {
+//        for (int j = 0; j < arr.GetLength(1); j++)
+//            Console.Write(arr[i, j] + " ");
+//        Console.WriteLine();
+//    }
+//    Console.WriteLine("--------");
+//}
+//        }
+//    }
+//}
