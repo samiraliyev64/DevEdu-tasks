@@ -1,0 +1,7 @@
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\obj\Debug\DoublyLinkedList.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\obj\Debug\DoublyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe.config
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\bin\Debug\DoublyLinkedList.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\obj\Debug\DoublyLinkedList.exe
+C:\Users\HP\Desktop\DevEdu-tasks\DoublyLinkedList\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb
