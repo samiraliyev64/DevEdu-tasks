@@ -1,0 +1,7 @@
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\FiguresApp.exe.config
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\FiguresApp.exe
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\FiguresApp.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.exe
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.pdb

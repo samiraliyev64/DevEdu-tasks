@@ -1,0 +1,12 @@
+Square
+Side: 4
+Area: 16
+Perimeter: 16
+
+Rectangle
+Side 1: 4
+Side 2: 5
+Area: 20
+Perimeter: 18
+
+
