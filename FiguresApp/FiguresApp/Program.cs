@@ -71,11 +71,11 @@ namespace FiguresApp
                             List<Point> pointsRectangle = new List<Point>()
                             {
                                 new Point(0,0),
-                                new Point(0,4),
-                                new Point(4,4),
-                                new Point(4,0)
+                                new Point(0,6),
+                                new Point(6,10),
+                                new Point(12,10)
                             };
-                            Rectangle newRectangle = new Rectangle(side1,side2,pointsRectangle);
+                            Rectangle newRectangle = new Rectangle(pointsRectangle);
                             double rectangleArea = newRectangle.CalculateArea();
                             double rectanglePerimeter = newRectangle.CalculatePerimeter();
                             Console.WriteLine($"Area: {rectangleArea}, Perimeter: {rectanglePerimeter}");
@@ -95,7 +95,7 @@ namespace FiguresApp
                                 new Point(0,4),
                                 new Point(4,4)
                             };
-                            Triangle newTriangle = new Triangle(a, b, c, pointsTriangle);
+                            Triangle newTriangle = new Triangle(pointsTriangle);
                             double triangleArea = newTriangle.CalculateArea();
                             double trianglePerimeter = newTriangle.CalculatePerimeter();
                             Console.WriteLine($"Area: {triangleArea}, Perimeter: {trianglePerimeter}");
@@ -110,6 +110,8 @@ namespace FiguresApp
                 else if (userInput == "3")
                 {
                     Console.WriteLine("change figure");
+
+
                 }
                 else if (userInput == "4")
                 {

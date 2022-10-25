@@ -12,11 +12,11 @@ namespace FiguresApp
         public double B { get; set; }
         public double C { get; set; }
 
-        public Triangle(double a, double b, double c,List<Point> points) : base(points)
+        public Triangle(List<Point> points) : base(points)
         {
-            this.A = a;
-            this.B = b;
-            this.C = c;
+            this.A = Math.Pow(Math.Pow(points[1].x - points[0].x, 2) + Math.Pow(points[1].y - points[0].y, 2), 0.5);
+            this.B = Math.Pow(Math.Pow(points[2].x - points[1].x, 2) + Math.Pow(points[2].y - points[1].y, 2), 0.5);
+            this.C = Math.Pow(Math.Pow(points[2].x - points[0].x, 2) + Math.Pow(points[2].y - points[0].y, 2), 0.5);
         }
         public override double CalculateArea()
         {
@@ -32,19 +32,40 @@ namespace FiguresApp
         }
         public override void FindCenter()
         {
-            throw new NotImplementedException();
+            double sumX = 0;
+            double sumY = 0;
+            foreach (var point in Points)
+            {
+                sumX += point.x;
+                sumY += point.y;
+            }
+            this.Center = new Point(sumX / 3, sumY / 3);
         }
         public override void MoveFigure(double x, double y)
         {
-            throw new NotImplementedException();
+            foreach (var point in Points)
+            {
+                point.x += x;
+                point.y += y;
+            }
         }
         public override void RotateFigure(double degree)
         {
-            throw new NotImplementedException();
+            foreach (var point in Points)
+            {
+                point.x = point.x * Math.Cos(degree) - point.y * Math.Sin(degree);
+                point.y = point.y * Math.Cos(degree) + point.x * Math.Sin(degree);
+            }
         }
         public override void ScaleFigure(double scale)
         {
-            throw new NotImplementedException();
+            foreach (var point in Points)
+            {
+                point.x = Center.x - scale * (Center.x - point.x);
+                point.y = Center.y - scale * (Center.y - point.y);
+            }
+            this.CalculateArea();
+            this.CalculatePerimeter();
         }
     }
 }

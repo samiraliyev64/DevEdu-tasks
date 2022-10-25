@@ -10,7 +10,6 @@ namespace FiguresApp
         {
             //this.Side = points[0].y - points[1].y;
             this.Side = Math.Pow(Math.Pow(points[1].x - points[0].x, 2) + Math.Pow(points[1].y - points[0].y, 2), 0.5);
-
         }
         public override double CalculateArea()
         {
