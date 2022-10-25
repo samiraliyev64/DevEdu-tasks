@@ -109,8 +109,37 @@ namespace FiguresApp
                 }
                 else if (userInput == "3")
                 {
-                    Console.WriteLine("change figure");
+                    Console.Write("Choose option a,b,c:  ");
+                    string yourOption = Console.ReadLine();
 
+                    switch (yourOption)
+                    {
+                        case "a":
+                            Console.Write("Choose figure: ");
+                            int optionFigure = Convert.ToInt32(Console.ReadLine());
+                            for (int i=0; i < figuresList.Count;i++)
+                            {
+                                if(optionFigure == i+1)
+                                {
+                                    Figure currentFigure = figuresList[i];
+                                    Console.Write("Enter x: ");
+                                    double x = Convert.ToDouble(Console.ReadLine());
+                                    Console.Write("Enter y: ");
+                                    double y = Convert.ToDouble(Console.ReadLine());
+                                    currentFigure.MoveFigure(x, y);
+                                }
+                            }
+                           
+                            break;
+                        case "b":
+                            break;
+                        case "c":
+  
+                            break;
+                        default:
+                            Console.WriteLine("there is no such figure");
+                            break;
+                    }
 
                 }
                 else if (userInput == "4")

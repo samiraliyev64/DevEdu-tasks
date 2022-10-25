@@ -38,6 +38,7 @@ namespace FiguresApp
             {
                 point.x += x;
                 point.y += y;
+                Console.WriteLine($"({point.x} , {point.y})");
             }
         }
         public override void RotateFigure(double degree)
