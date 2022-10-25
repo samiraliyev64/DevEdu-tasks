@@ -12,23 +12,39 @@ namespace FiguresApp
         public double B { get; set; }
         public double C { get; set; }
 
-        public Triangle(double a, double b, double c)
+        public Triangle(double a, double b, double c,List<Point> points) : base(points)
         {
             this.A = a;
             this.B = b;
             this.C = c;
         }
-        public override double calculateArea()
+        public override double CalculateArea()
         {
             double s = (A + B + C) / 2;
             Area = Math.Sqrt(s * (s - A) * (s - B) * (s - C));
             return Area;
         }
 
-        public override double calculatePerimeter()
+        public override double CalculatePerimeter()
         {
             Perimeter = A + B + C;
             return Perimeter;
+        }
+        public override void FindCenter()
+        {
+            throw new NotImplementedException();
+        }
+        public override void MoveFigure(double x, double y)
+        {
+            throw new NotImplementedException();
+        }
+        public override void RotateFigure(double degree)
+        {
+            throw new NotImplementedException();
+        }
+        public override void ScaleFigure(double scale)
+        {
+            throw new NotImplementedException();
         }
     }
 }

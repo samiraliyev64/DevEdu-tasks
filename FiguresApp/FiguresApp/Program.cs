@@ -49,9 +49,16 @@ namespace FiguresApp
                         case "a":
                             Console.Write("Enter side: ");
                             double side = Convert.ToDouble(Console.ReadLine());
-                            Square newSquare = new Square(side);
-                            double area = newSquare.calculateArea();
-                            double perimeter = newSquare.calculatePerimeter();
+                            List<Point> points = new List<Point>()
+                            {
+                                new Point(0,0),
+                                new Point(0,4),
+                                new Point(4,4),
+                                new Point(4,0)
+                            };
+                            Square newSquare = new Square(points);
+                            double area = newSquare.CalculateArea();
+                            double perimeter = newSquare.CalculatePerimeter();
                             Console.WriteLine($"Area: {area}, Perimeter: {perimeter}");
                             newFiguresInfo += $"Square\nSide: {side}\nArea: {area}\nPerimeter: {perimeter}\n\n";
                             figuresList.Add(newSquare);
@@ -61,9 +68,16 @@ namespace FiguresApp
                             double side1 = Convert.ToDouble(Console.ReadLine());
                             Console.Write("Enter side 2: ");
                             double side2 = Convert.ToDouble(Console.ReadLine());
-                            Rectangle newRectangle = new Rectangle(side1, side2);
-                            double rectangleArea = newRectangle.calculateArea();
-                            double rectanglePerimeter = newRectangle.calculatePerimeter();
+                            List<Point> pointsRectangle = new List<Point>()
+                            {
+                                new Point(0,0),
+                                new Point(0,4),
+                                new Point(4,4),
+                                new Point(4,0)
+                            };
+                            Rectangle newRectangle = new Rectangle(side1,side2,pointsRectangle);
+                            double rectangleArea = newRectangle.CalculateArea();
+                            double rectanglePerimeter = newRectangle.CalculatePerimeter();
                             Console.WriteLine($"Area: {rectangleArea}, Perimeter: {rectanglePerimeter}");
                             newFiguresInfo += $"Rectangle\nSide 1: {side1}\nSide 2: {side2}\nArea: {rectangleArea}\nPerimeter: {rectanglePerimeter}\n\n";
                             figuresList.Add(newRectangle);
@@ -75,9 +89,15 @@ namespace FiguresApp
                             double b = Convert.ToDouble(Console.ReadLine());
                             Console.Write("Enter side c: ");
                             double c = Convert.ToDouble(Console.ReadLine());
-                            Triangle newTriangle = new Triangle(a, b, c);
-                            double triangleArea = newTriangle.calculateArea();
-                            double trianglePerimeter = newTriangle.calculatePerimeter();
+                            List<Point> pointsTriangle = new List<Point>()
+                            {
+                                new Point(0,0),
+                                new Point(0,4),
+                                new Point(4,4)
+                            };
+                            Triangle newTriangle = new Triangle(a, b, c, pointsTriangle);
+                            double triangleArea = newTriangle.CalculateArea();
+                            double trianglePerimeter = newTriangle.CalculatePerimeter();
                             Console.WriteLine($"Area: {triangleArea}, Perimeter: {trianglePerimeter}");
                             newFiguresInfo += $"Triangle\nSide 1: {a}\nSide 2: {b}\nSide 3: {c}\nArea: {triangleArea}\nPerimeter: {trianglePerimeter}\n\n";
                             figuresList.Add(newTriangle);

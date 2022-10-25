@@ -12,8 +12,19 @@ namespace FiguresApp
         public double Perimeter { get; set; }
         public List<Point> Points { get; set; }
         public Point Center { get; set; }
-      
-        public abstract double calculatePerimeter();
-        public abstract double calculateArea();
+        public Figure(List<Point> points)
+        {
+            this.Points = points;
+            this.CalculateArea();
+            this.CalculatePerimeter();
+            this.FindCenter();
+        }
+        
+        public abstract double CalculatePerimeter();
+        public abstract double CalculateArea();
+        public abstract void MoveFigure(double x, double y);
+        public abstract void RotateFigure(double degree);
+        public abstract void ScaleFigure(double scale);
+        public abstract void FindCenter();
     }
 }
