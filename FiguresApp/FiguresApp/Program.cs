@@ -129,18 +129,39 @@ namespace FiguresApp
                                     currentFigure.MoveFigure(x, y);
                                 }
                             }
-                           
                             break;
                         case "b":
+                            Console.Write("Choose figure: ");
+                            int optionFigureRotate = Convert.ToInt32(Console.ReadLine());
+                            for (int i = 0; i < figuresList.Count; i++)
+                            {
+                                if (optionFigureRotate == i + 1)
+                                {
+                                    Figure currentFigure = figuresList[i];
+                                    Console.Write("Enter degree: ");
+                                    double degree = Convert.ToDouble(Console.ReadLine());
+                                    currentFigure.RotateFigure(degree);
+                                }
+                            }
                             break;
                         case "c":
-  
+                            Console.Write("Choose figure: ");
+                            int optionFigureScale = Convert.ToInt32(Console.ReadLine());
+                            for (int i = 0; i < figuresList.Count; i++)
+                            {
+                                if (optionFigureScale == i + 1)
+                                {
+                                    Figure currentFigure = figuresList[i];
+                                    Console.Write("Enter scale: ");
+                                    double scale = Convert.ToDouble(Console.ReadLine());
+                                    currentFigure.RotateFigure(scale);
+                                }
+                            }
                             break;
                         default:
                             Console.WriteLine("there is no such figure");
                             break;
                     }
-
                 }
                 else if (userInput == "4")
                 {
