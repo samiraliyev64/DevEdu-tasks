@@ -60,7 +60,12 @@ namespace FiguresApp
                             double area = newSquare.CalculateArea();
                             double perimeter = newSquare.CalculatePerimeter();
                             Console.WriteLine($"Area: {area}, Perimeter: {perimeter}");
-                            newFiguresInfo += $"Square\nSide: {side}\nArea: {area}\nPerimeter: {perimeter}\n\n";
+                            newFiguresInfo += $"Square\nSide: {side}\nArea: {area}\nPerimeter: {perimeter}\n";
+                            foreach (var point in newSquare.Points)
+                            {
+                                newFiguresInfo += $"({point.x} , {point.y})";
+                            }
+                            Console.WriteLine("\n\n");
                             figuresList.Add(newSquare);
                             break;
                         case "b":
@@ -127,6 +132,11 @@ namespace FiguresApp
                                     Console.Write("Enter y: ");
                                     double y = Convert.ToDouble(Console.ReadLine());
                                     currentFigure.MoveFigure(x, y);
+                                    foreach (var point in currentFigure.Points)
+                                    {
+                                        point.x += x;
+                                        point.y += y;
+                                    }
                                 }
                             }
                             break;
