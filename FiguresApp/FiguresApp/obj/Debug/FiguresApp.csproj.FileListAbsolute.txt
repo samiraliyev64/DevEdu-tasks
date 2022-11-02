@@ -5,3 +5,10 @@ C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.cspr
 C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.exe
 C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\HP\Desktop\DevEdu-tasks\FiguresApp\FiguresApp\obj\Debug\FiguresApp.csproj.CopyComplete

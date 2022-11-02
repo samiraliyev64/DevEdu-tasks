@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace FiguresApp
 {
+    [Serializable()]
+    [XmlInclude(typeof(Square))]
+    [XmlInclude(typeof(Rectangle))]
+    [XmlInclude(typeof(Triangle))]
+    [XmlRoot(Namespace = "FiguresApp")]
+
     public abstract class Figure
     {
         public double Area { get; set; }

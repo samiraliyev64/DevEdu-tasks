@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresApp
 {
+    [Serializable()]
     class Triangle : Figure
     {
         public double A { get; set; }

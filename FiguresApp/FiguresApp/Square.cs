@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace FiguresApp
 {
+    [Serializable()]
     class Square : Figure
     {
         public double Side { get; set; }

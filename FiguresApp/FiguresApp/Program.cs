@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace FiguresApp
 {
@@ -35,6 +38,17 @@ namespace FiguresApp
                     {
                         Console.WriteLine(line);
                     }
+
+                    //binary
+                    Stream openFileStream = File.OpenRead(filePath);
+                    BinaryFormatter deserializer = new BinaryFormatter();
+                    List<Figure> myFiguresList = (List<Figure>)deserializer.Deserialize(openFileStream);
+                    openFileStream.Close();
+
+                    //xml
+                    //var mySerializer = new XmlSerializer(typeof(List<Figure>));
+                    //var myFileStream = new FileStream(filePath, FileMode.Open);
+                    //var myObject = (List<Figure>)mySerializer.Deserialize(myFileStream);
                 }
                 else if (userInput == "2")
                 {
@@ -175,6 +189,18 @@ namespace FiguresApp
                 }
                 else if (userInput == "4")
                 {
+                    //binary
+                    Stream fileStream = File.Create(filePath);
+                    BinaryFormatter serializer = new BinaryFormatter();
+                    serializer.Serialize(fileStream, figuresList);
+                    fileStream.Close();
+
+                    //xml
+                    //XmlSerializer mySerializer = new XmlSerializer(typeof(List<Figure>));
+                    //StreamWriter Writer = new StreamWriter(filePath);
+                    //mySerializer.Serialize(Writer, figuresList);
+                    //Writer.Close();
+
                     Console.WriteLine("saved to file");
                     using (StreamWriter writer = new StreamWriter(filePath, true))
                     {
