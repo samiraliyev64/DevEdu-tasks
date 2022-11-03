@@ -190,10 +190,10 @@ namespace FiguresApp
                 else if (userInput == "4")
                 {
                     //binary
-                    Stream fileStream = File.Create(filePath);
-                    BinaryFormatter serializer = new BinaryFormatter();
-                    serializer.Serialize(fileStream, figuresList);
-                    fileStream.Close();
+                    //Stream fileStream = File.Create(filePath);
+                    //BinaryFormatter serializer = new BinaryFormatter();
+                    //serializer.Serialize(fileStream, figuresList);
+                    //fileStream.Close();
 
                     //xml
                     //XmlSerializer mySerializer = new XmlSerializer(typeof(List<Figure>));
@@ -201,6 +201,13 @@ namespace FiguresApp
                     //mySerializer.Serialize(Writer, figuresList);
                     //Writer.Close();
 
+                    //json
+                    //using (StreamWriter sw = new StreamWriter(filePath))
+                    //{
+                    //    JsonSerializer jsonSerializer = JsonSerializer.
+                    //        Create(new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.Objects, Formatting = Formatting.Indented });
+                    //    jsonSerializer.Serialize(sw, figuresList);
+                    //}
                     Console.WriteLine("saved to file");
                     using (StreamWriter writer = new StreamWriter(filePath, true))
                     {
